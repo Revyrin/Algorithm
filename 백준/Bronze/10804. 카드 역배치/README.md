@@ -100,12 +100,12 @@
 			<td>2</td>
 			<td>3</td>
 			<td>4</td>
-			<td style="background-color: #ccc;">10</td>
-			<td style="background-color: #ccc;">9</td>
-			<td style="background-color: #ccc;">8</td>
-			<td style="background-color: #ccc;">7</td>
-			<td style="background-color: #ccc;">6</td>
-			<td style="background-color: #ccc;">5</td>
+			<td style="background-color: rgb(204, 204, 204); --darkreader-inline-bgcolor:#35393b;" data-darkreader-inline-bgcolor="">10</td>
+			<td style="background-color: rgb(204, 204, 204); --darkreader-inline-bgcolor:#35393b;" data-darkreader-inline-bgcolor="">9</td>
+			<td style="background-color: rgb(204, 204, 204); --darkreader-inline-bgcolor:#35393b;" data-darkreader-inline-bgcolor="">8</td>
+			<td style="background-color: rgb(204, 204, 204); --darkreader-inline-bgcolor:#35393b;" data-darkreader-inline-bgcolor="">7</td>
+			<td style="background-color: rgb(204, 204, 204); --darkreader-inline-bgcolor:#35393b;" data-darkreader-inline-bgcolor="">6</td>
+			<td style="background-color: rgb(204, 204, 204); --darkreader-inline-bgcolor:#35393b;" data-darkreader-inline-bgcolor="">5</td>
 			<td>11</td>
 			<td>12</td>
 			<td>13</td>
@@ -157,11 +157,11 @@
 			<td>9</td>
 			<td>8</td>
 			<td>7</td>
-			<td style="background-color: #ccc;">13</td>
-			<td style="background-color: #ccc;">12</td>
-			<td style="background-color: #ccc;">11</td>
-			<td style="background-color: #ccc;">5</td>
-			<td style="background-color: #ccc;">6</td>
+			<td style="background-color: rgb(204, 204, 204); --darkreader-inline-bgcolor:#35393b;" data-darkreader-inline-bgcolor="">13</td>
+			<td style="background-color: rgb(204, 204, 204); --darkreader-inline-bgcolor:#35393b;" data-darkreader-inline-bgcolor="">12</td>
+			<td style="background-color: rgb(204, 204, 204); --darkreader-inline-bgcolor:#35393b;" data-darkreader-inline-bgcolor="">11</td>
+			<td style="background-color: rgb(204, 204, 204); --darkreader-inline-bgcolor:#35393b;" data-darkreader-inline-bgcolor="">5</td>
+			<td style="background-color: rgb(204, 204, 204); --darkreader-inline-bgcolor:#35393b;" data-darkreader-inline-bgcolor="">6</td>
 			<td>14</td>
 			<td>15</td>
 			<td>16</td>

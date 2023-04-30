@@ -9,8 +9,7 @@ int main(void) {
 	int flag = 0;
 	cin >> n;
 	stack<int> st;
-	stack<char> sn;
-	char arr[200001] = {};
+	string ans;
 
 	while (n--) {
 		int x;
@@ -21,35 +20,26 @@ int main(void) {
 			else if (st.top() < x) {
 				for (cnt; cnt <= x; cnt++) {
 					st.push(cnt);
-					sn.push('+');
+					ans += "+\n";
 				}
 				st.pop();
-				sn.push('-');
+				ans += "-\n";
 			}
 			else if (st.top() == x) {
 				st.pop();
-				sn.push('-');
+				ans += "-\n";
 			}
 		}
 		else if (st.empty()) {
 			for (cnt; cnt <= x; cnt++) {
 				st.push(cnt);
-				sn.push('+');
+				ans += "+\n";
 			}
 			st.pop();
-			sn.push('-');
+			ans += "-\n";
 		}
 	}
 
-	if (flag == 1)
-		cout << "NO";
-	else {
-		int t = sn.size();
-		for (int i = 0; i < t; i++) {
-			arr[i] = sn.top();
-			sn.pop();
-		}
-		for (int i = t - 1; i >= 0; i--)
-			cout << arr[i] << '\n';
-	}
+	if (flag == 1)	cout << "NO";
+	else	cout << ans;
 }

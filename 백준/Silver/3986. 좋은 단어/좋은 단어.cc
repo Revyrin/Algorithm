@@ -14,23 +14,8 @@ int main(void) {
 		cin >> str;
 		stack<char> S;
 		for (auto i : str) {
-			if (S.empty()) {
-				S.push(i);
-			}
-			else {
-				if (i == 'A') {
-					if (S.top() == i)
-						S.pop();
-					else
-						S.push(i);
-				}
-				else if (i == 'B') {
-					if (S.top() == i)
-						S.pop();
-					else
-						S.push(i);
-				}
-			}
+			if (!S.empty() && S.top() == i) S.pop();
+			else S.push(i);
 		}
 		if (S.empty()) cnt++;
 	}
